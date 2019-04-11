@@ -13,7 +13,7 @@ import com.example.api.repositories.CategoryRepository;
 import com.example.api.repositories.ProductRepository;
 
 @SpringBootApplication
-public class FirstApiApplication implements CommandLineRunner {
+public class FirstApiApplication implements CommandLineRunner{
 
 	@Autowired
 	private CategoryRepository categoryRepository;
